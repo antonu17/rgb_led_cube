@@ -1,4 +1,4 @@
-(module ESP32_NodeMCU (layer F.Cu) (tedit 5EA4B43B)
+(module ESP32_NodeMCU (layer F.Cu) (tedit 5EAA7FD1)
   (descr "surface-mounted straight pin header, 1x20, 2.54mm pitch, single row, style 1 (pin 1 left)")
   (tags "Surface mounted pin header SMD 1x20 2.54mm single row style1 pin1 left")
   (attr smd)
@@ -236,9 +236,24 @@
   (pad 38 smd rect (at 11.045 -24.13) (size 2.51 1) (layers F.Cu F.Paste F.Mask))
   (pad 36 smd rect (at 11.045 -19.05) (size 2.51 1) (layers F.Cu F.Paste F.Mask))
   (pad 34 smd rect (at 11.045 -13.97) (size 2.51 1) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/rgb_led_cube.pretty/ESP32_NodeMCU.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.394 0.394 0.394))
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical_SMD_Pin1Left.wrl
+    (offset (xyz -20 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical_SMD_Pin1Left.wrl
+    (offset (xyz 20 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical_SMD_Pin1Left.wrl
+    (offset (xyz -12.7 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical_SMD_Pin1Left.wrl
+    (offset (xyz 12.7 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
