@@ -4141,4 +4141,46 @@ Wire Wire Line
 	12650 9400 12650 9300
 Wire Wire Line
 	12650 9300 12450 9300
+$Comp
+L dk_Terminal-Blocks-Wire-to-Board:OSTTC022162 J1
+U 1 1 5EBAD8B8
+P 15550 6000
+F 0 "J1" V 15325 5983 50  0000 C CNN
+F 1 "OSTTC022162" V 15416 5983 50  0000 C CNN
+F 2 "digikey-footprints:Term_Block_1x2_P5.08MM" H 15750 6200 60  0001 L CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 15750 6300 60  0001 L CNN
+F 4 "ED2609-ND" H 15750 6400 60  0001 L CNN "Digi-Key_PN"
+F 5 "OSTTC022162" H 15750 6500 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 15750 6600 60  0001 L CNN "Category"
+F 7 "Terminal Blocks - Wire to Board" H 15750 6700 60  0001 L CNN "Family"
+F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 15750 6800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558" H 15750 6900 60  0001 L CNN "DK_Detail_Page"
+F 10 "TERM BLK 2P SIDE ENT 5.08MM PCB" H 15750 7000 60  0001 L CNN "Description"
+F 11 "On Shore Technology Inc." H 15750 7100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 15750 7200 60  0001 L CNN "Status"
+	1    15550 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0139
+U 1 1 5EBB23F5
+P 15650 6100
+F 0 "#PWR0139" H 15650 5950 50  0001 C CNN
+F 1 "VCC" V 15667 6228 50  0000 L CNN
+F 2 "" H 15650 6100 50  0001 C CNN
+F 3 "" H 15650 6100 50  0001 C CNN
+	1    15650 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0140
+U 1 1 5EBB41A8
+P 15650 6000
+F 0 "#PWR0140" H 15650 5750 50  0001 C CNN
+F 1 "GND" V 15655 5872 50  0000 R CNN
+F 2 "" H 15650 6000 50  0001 C CNN
+F 3 "" H 15650 6000 50  0001 C CNN
+	1    15650 6000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
