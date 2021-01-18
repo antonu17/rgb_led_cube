@@ -4183,4 +4183,92 @@ F 3 "" H 15650 6000 50  0001 C CNN
 	1    15650 6000
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5ED7C02E
+P 15400 4450
+F 0 "H1" H 15500 4499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15500 4408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 15400 4450 50  0001 C CNN
+F 3 "~" H 15400 4450 50  0001 C CNN
+	1    15400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5ED803AA
+P 15750 4450
+F 0 "H2" H 15750 4737 50  0000 C CNN
+F 1 "MountingHole_Pad" H 15750 4646 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 15750 4450 50  0001 C CNN
+F 3 "~" H 15750 4450 50  0001 C CNN
+	1    15750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5ED809D9
+P 15400 5350
+F 0 "H3" H 15500 5399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15500 5308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 15400 5350 50  0001 C CNN
+F 3 "~" H 15400 5350 50  0001 C CNN
+	1    15400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5ED812DA
+P 15750 5350
+F 0 "H4" H 15750 5637 50  0000 C CNN
+F 1 "MountingHole_Pad" H 15750 5546 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 15750 5350 50  0001 C CNN
+F 3 "~" H 15750 5350 50  0001 C CNN
+	1    15750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0141
+U 1 1 5ED82CB4
+P 15400 4550
+F 0 "#PWR0141" H 15400 4300 50  0001 C CNN
+F 1 "GND" H 15405 4377 50  0000 C CNN
+F 2 "" H 15400 4550 50  0001 C CNN
+F 3 "" H 15400 4550 50  0001 C CNN
+	1    15400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 5ED841EE
+P 15750 4550
+F 0 "#PWR0142" H 15750 4300 50  0001 C CNN
+F 1 "GND" H 15755 4377 50  0000 C CNN
+F 2 "" H 15750 4550 50  0001 C CNN
+F 3 "" H 15750 4550 50  0001 C CNN
+	1    15750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0143
+U 1 1 5ED85723
+P 15400 5450
+F 0 "#PWR0143" H 15400 5200 50  0001 C CNN
+F 1 "GND" H 15405 5277 50  0000 C CNN
+F 2 "" H 15400 5450 50  0001 C CNN
+F 3 "" H 15400 5450 50  0001 C CNN
+	1    15400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0144
+U 1 1 5ED86C64
+P 15750 5450
+F 0 "#PWR0144" H 15750 5200 50  0001 C CNN
+F 1 "GND" H 15755 5277 50  0000 C CNN
+F 2 "" H 15750 5450 50  0001 C CNN
+F 3 "" H 15750 5450 50  0001 C CNN
+	1    15750 5450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
